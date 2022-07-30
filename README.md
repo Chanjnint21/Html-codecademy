@@ -1,8 +1,20 @@
 HTML and Css :
 - HTML: Hypertext Markup Language.
 - CSS: Cascading Style Sheets
+
+Declare : 
+
+- `<!DOCTYPE html>` to let web browser know you are using HTML 
+- `<head></head>` is a tag that is always above the body element and is a part of this HTML metaphor…the metadata in the head is information about the page itself.
+- `<body></body>` is a tag that contain the content the information and the contain in page
+
+Tag :
+
+- Some elements need the open and close tag and some only need an open tag. Example: `<body></body>` need open and close, `<br>` doesn't need close tag.
+
 Display text:
 
+- `<title></title>` is a tag that use to display on web browser Tab [ Noted: It is always in the head ]
 - *Paragraphs* (`<p>`) contain a block of plain text.
 - `<span>` contains short pieces of text or other HTML. They are used to separate small pieces of content that are on the same line as other content.
 - line breaks `<br>`
