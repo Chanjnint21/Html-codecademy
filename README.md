@@ -45,3 +45,32 @@ Styling text :
 
 - The `<em>` tag will generally render as [ *italic* ] emphasis.
 - The `<strong>` will generally render as **bold** emphasis
+
+Table :
+
+`<table> </table>` is the element will contain all of the tabular data we plan on displaying.
+
+- `<thead>`defines the headings of table columns
+- `<body>` is a semantic element that will contain all table data other than table heading and table footer content
+- use `<tr></tr>` Table Row to create a rows of table then >
+- use `<th></th>` Table Heading to add titles to rows and columns of a table
+- use `<td></td>` Table Data to insert the data in `<tr></tr>`
+- `scope` attribute specifies whether a header cell is a header for a column, row, or group of columns or rows
+1. `row` - this value makes it clear that the heading is for a row.
+2. `col` - this value makes it clear that the heading is for a column.
+
+Example : `<th scope ="col">Company Name</th>`
+
+- In the older version of HTML, we can use the border to create a border of the table
+
+`<table border="1">`
+
+`<tr></tr>`
+
+`</table>`
+
+but now we can use CSS effect instead.
+
+- `colspan` attribute on a table header `<th>`or table data `<td>`  element indicates how many columns that particular cell should span within the table. It’s like you try to merge the current volume and the right volume into one. Can set value from 1 - 1000. Example: `<td colspan="2">col 1 (will span 2 columns)</td>`
+- `rowspan` attribute is used for data that spans multiple rows. It’s like you try to merge the current volume and the below volume into one
+- `<tfoot>` uses table rows to give footer content or to summarize content at the end of a table
